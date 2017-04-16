@@ -1,14 +1,14 @@
-Project Title :  Folder Locker for
+Project Title :  Folder Locker For Windows
 
 Project Description:
-	Programming Language:  Java & PHP
-	Database            :  Mysql
+	Programming Language:  c# & SQL
+	Database            :  Microsoft Sql Server
 
 
 Developed By: 
-		Emamul Haque Manna (160204) 
-		Md. Abdul Lotif (160212) 
-		Saimum Islam (160227)
+	        Anam Islam (160222) 
+		Md. Lutful Hasan (160234) 
+		Mahfujur Rahman Afnan (160235)
 
 Project Manager : Kazi Masudul Alam 
 			& 
