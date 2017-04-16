@@ -1,0 +1,14 @@
+C:\Users\Md. Lutful\Documents\Visual Studio 2012\Projects\ABC Locker_10_04_17\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Md. Lutful\Documents\Visual Studio 2012\Projects\ABC Locker_10_04_17\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Md. Lutful\Documents\Visual Studio 2012\Projects\ABC Locker_10_04_17\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Md. Lutful\Documents\Visual Studio 2012\Projects\ABC Locker_10_04_17\BusinessLogic\obj\Debug\BusinessLogic.pdb
+C:\Users\Md. Lutful\Documents\Visual Studio 2012\Projects\ABC Locker_10_04_17\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+G:\APL\ABC Locker_10_04_17\BusinessLogic\bin\Debug\BusinessLogic.dll
+G:\APL\ABC Locker_10_04_17\BusinessLogic\bin\Debug\BusinessLogic.pdb
+G:\APL\ABC Locker_10_04_17\BusinessLogic\obj\Debug\BusinessLogic.dll
+G:\APL\ABC Locker_10_04_17\BusinessLogic\obj\Debug\BusinessLogic.pdb
+G:\APL\ABC Locker_10_04_17\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
+C:\Users\Md. Lutful\Documents\Visual Studio 2012\Projects\Final folder Locker_15_04_17\BusinessLogic\bin\Debug\BusinessLogic.dll
+C:\Users\Md. Lutful\Documents\Visual Studio 2012\Projects\Final folder Locker_15_04_17\BusinessLogic\bin\Debug\BusinessLogic.pdb
+C:\Users\Md. Lutful\Documents\Visual Studio 2012\Projects\Final folder Locker_15_04_17\BusinessLogic\obj\Debug\BusinessLogic.dll
+C:\Users\Md. Lutful\Documents\Visual Studio 2012\Projects\Final folder Locker_15_04_17\BusinessLogic\obj\Debug\BusinessLogic.pdb

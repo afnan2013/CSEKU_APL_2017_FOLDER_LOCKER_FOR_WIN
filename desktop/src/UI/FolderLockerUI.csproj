@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3C1FCE63-2E51-4597-81C3-A7A31BA5E9C6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataDisplay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DataDisplay.Designer.cs">
+      <DependentUpon>DataDisplay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FileLocker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FileLocker.Designer.cs">
+      <DependentUpon>FileLocker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encyption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Encyption.Designer.cs">
+      <DependentUpon>Encyption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Decryption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Decryption.Designer.cs">
+      <DependentUpon>Decryption.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_HighSecurity.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_HighSecurity.Designer.cs">
+      <DependentUpon>form_HighSecurity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_SetLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_SetLogin.Designer.cs">
+      <DependentUpon>form_SetLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainMenu.Designer.cs">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_FolderLock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_FolderLock.Designer.cs">
+      <DependentUpon>form_FolderLock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="form_SetPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_SetPassword.Designer.cs">
+      <DependentUpon>form_SetPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="DataDisplay.resx">
+      <DependentUpon>DataDisplay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FileLocker.resx">
+      <DependentUpon>FileLocker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Encyption.resx">
+      <DependentUpon>Encyption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Decryption.resx">
+      <DependentUpon>Decryption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_HighSecurity.resx">
+      <DependentUpon>form_HighSecurity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_SetLogin.resx">
+      <DependentUpon>form_SetLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainMenu.resx">
+      <DependentUpon>MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_FolderLock.resx">
+      <DependentUpon>form_FolderLock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form_SetPassword.resx">
+      <DependentUpon>form_SetPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+      <Project>{578db22a-1b8b-4c78-ac4c-08370817e757}</Project>
+      <Name>BusinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{d2f9613f-3154-4b30-bb99-3d293d4d9dda}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
